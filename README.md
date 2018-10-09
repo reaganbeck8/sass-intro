@@ -2,13 +2,13 @@
 This is an introduction to "Sass" which is a precomputing scripting language used to make css more efficient
 
 
-#Pre-Requisites : SASS and Ruby
+# Pre-Requisites : SASS and Ruby
 
 /** If you do not have SASS or Ruby then download and install Ruby from the links below **/
 
-##Ruby : https://rubyinstaller.org/downloads/
+# Ruby : https://rubyinstaller.org/downloads/
 
-##SASS: https://sass-lang.com/ruby-sass (How to install)
+# SASS: https://sass-lang.com/ruby-sass (How to install)
 
 to verify the installation type "ruby -v" and "sass -v"
 
@@ -17,15 +17,15 @@ to verify the installation type "ruby -v" and "sass -v"
 
 
 ```
-##Step 1 : I created my repository "sass-intro" for the introduction of the scripting language called SASS and intialized it with this README file. 
+# Step 1 : I created my repository "sass-intro" for the introduction of the scripting language called SASS and intialized it with this README file. 
 
 
 
-##Step 2 : I then made the folder live by going into the repository and going into "settings" > "Github Pages" > "Source" click on "None" and change it to "Master Branch" (The first option). Your page will refresh and you'll need to scroll down to the Github pages section again and copy that link that has just appeared. 
+# Step 2 : I then made the folder live by going into the repository and going into "settings" > "Github Pages" > "Source" click on "None" and change it to "Master Branch" (The first option). Your page will refresh and you'll need to scroll down to the Github pages section again and copy that link that has just appeared. 
 
-##Step 3: Copy that link and add it into your description as well as the website, but don't forget to add in "/index.html" without the "" to the end of your link.
+# Step 3: Copy that link and add it into your description as well as the website, but don't forget to add in "/index.html" without the "" to the end of your link.
 
-##Step 4 :  I created the base folders as well as the index.html file for the project.
+# Step 4 :  I created the base folders as well as the index.html file for the project.
 
 ```
             ###Open your command line of preference
@@ -45,8 +45,7 @@ to verify the installation type "ruby -v" and "sass -v"
             -step 6: navigate to the scss folder by typing "cd scss" and hit [Enter], then within that folder type the command "sass --watch scss:css" without the ""
 ```
 
-Step 5 : Open your text-editor of preference and watch what happens when you make changes in your scss file. It will update the css automatically because of the watch command that is running within your command-line.
+# Step 5 : Open your text-editor of preference and watch what happens when you make changes in your scss file. It will update the css automatically because of the watch command that is running within your command-line.
 
 You can access the link to my site here: https://reaganbeck8.github.io/sass-intro/index.html 
 
-```
