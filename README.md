@@ -1,8 +1,8 @@
-# sass-intro
+## sass-intro
 This is an introduction to "Sass" which is a precomputing scripting language used to make css more efficient
 
 
-# Pre-Requisites : SASS and Ruby
+## Pre-Requisites : SASS and Ruby
 
 /** If you do not have SASS or Ruby then download and install Ruby from the links below **/
 
@@ -13,19 +13,18 @@ This is an introduction to "Sass" which is a precomputing scripting language use
 to verify the installation type "ruby -v" and "sass -v"
 
 
-#/* Github and The process I followed: */
+## /* Github and The process I followed: */
 
 
 ```
-# Step 1 : I created my repository "sass-intro" for the introduction of the scripting language called SASS and intialized it with this README file. 
+        Step 1 : I created my repository "sass-intro" for the introduction of the scripting language called SASS and intialized it with this README file. 
 
+        Step 2 : I then made the folder live by going into the repository and going into "settings" > "Github Pages" > "Source" click on "None" and change it to "Master Branch" (The first option). Your page will refresh and you'll need to scroll down to the Github pages section again and copy that link that has just appeared. 
 
+        Step 3: Copy that link and add it into your description as well as the website, but don't forget to add in "/index.html" without the "" to the end of your link.
 
-# Step 2 : I then made the folder live by going into the repository and going into "settings" > "Github Pages" > "Source" click on "None" and change it to "Master Branch" (The first option). Your page will refresh and you'll need to scroll down to the Github pages section again and copy that link that has just appeared. 
-
-# Step 3: Copy that link and add it into your description as well as the website, but don't forget to add in "/index.html" without the "" to the end of your link.
-
-# Step 4 :  I created the base folders as well as the index.html file for the project.
+        Step 4 :  I created the base folders as well as the index.html file for the project.
+```
 
 ```
             ###Open your command line of preference
@@ -46,6 +45,11 @@ to verify the installation type "ruby -v" and "sass -v"
 ```
 
 # Step 5 : Open your text-editor of preference and watch what happens when you make changes in your scss file. It will update the css automatically because of the watch command that is running within your command-line.
+
+## **NB** - importing using "partials" :
+    - you create a sub-folder within the "scss" folder.
+    - create the following files in your text editor within the scss folder > _base.scss,   _components.scss,  _responsive.scss,  _variables.scss,
+    -to link these styles to your site you need to use the @import
 
 You can access the link to my site here: https://reaganbeck8.github.io/sass-intro/index.html 
 
