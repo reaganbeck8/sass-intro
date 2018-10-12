@@ -1,7 +1,21 @@
+header {
+    background-image: url('../images/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+}
+.primary-content {
+    background-image: url("../images/nature.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
 .arrow {
     margin-left: 40%;
     margin-right: 40%;
     padding-left: 4.5%;
     padding-right: 4.5%;
-     
+    text-shadow: 2px 5px 3px white;
+
 }
