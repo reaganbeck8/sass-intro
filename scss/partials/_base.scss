@@ -1,14 +1,30 @@
-/* BASE STYLES */
-
-body {
-    background-color: $primary-color;
-    h1 {
-        font-size: $font-size1;
-    }
-    p {
-        font-size: $font-size2;
-        color: $text-color;
-        font-family: Helvetica, sans-serif;
-    }
+.primary-content  {
+    background-color: $bg-color-2;
+}
+// .intro {
+//     // background-image: url('../images/landscape.jpg');
+// }
+header {
+    background-image: url('../images/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+    background-attachment: fixed;
+    background-color: rgba(255, 228, 196, 0.274);
+    background-blend-mode: overlay;
     
 }
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    color: $text-black;
+    text-align: center;
+    padding-top: 20vh;
+    font-size: $font-size-1;
+    font-size: 3.2em;
+    line-height: 2;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+

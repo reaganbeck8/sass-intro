@@ -1,12 +1,31 @@
-/* VARIABLES */
-/* BASE STYLES */
-body {
-  background-color: #bada55; }
-  body h1 {
-    font-size: 3.125em; }
-  body p {
-    font-size: 2.125em;
-    color: #f0f;
-    font-family: Helvetica, sans-serif; }
+@import url("https://fonts.googleapis.com/css?family=Cairo");
+.primary-content {
+  background-color: #6d7526; }
+
+header {
+  background-image: url("../images/forest.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+  background-attachment: fixed;
+  background-color: rgba(255, 228, 196, 0.274);
+  background-blend-mode: overlay; }
+
+h1 {
+  font-family: 'Cairo', sans-serif;
+  color: #0e0d0d;
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 3em;
+  font-size: 3.2em;
+  line-height: 2;
+  font-weight: 500;
+  font-style: normal; }
+
+.arrow {
+  margin-left: 40%;
+  margin-right: 40%;
+  padding-left: 4.5%;
+  padding-right: 4.5%; }
 
 /*# sourceMappingURL=main.css.map */
